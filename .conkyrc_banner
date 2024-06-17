@@ -1,0 +1,19 @@
+conky.config = {
+    alignment = 'top_middle',
+    minimum_width = 3840,  -- Your screen width
+    out_to_x = true,
+    double_buffer = true,
+    own_window = true,
+    own_window_class = 'Conky',
+    own_window_type = 'dock',  -- This change may make the window behave like a panel or dock
+    own_window_hints = 'below',  -- Keeps the Conky window above others
+    own_window_colour = '#502b85',  -- Set the background color to #502b85
+    use_spacer = 'none',
+    use_xft = true,
+    font = 'Open Sans:size=10',  -- Change the font to Arial with size 10
+    gap_y = 0,  -- This removes the gap at the top
+};
+
+conky.text = [[
+${voffset 4}${alignc}${color white}⚠ CONTROLLED UNCLASSIFIED INFORMATION (CUI)
+]];
