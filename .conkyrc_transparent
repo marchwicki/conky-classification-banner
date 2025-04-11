@@ -1,6 +1,6 @@
 conky.config = {
-    minimum_width = 3840,  -- Adjust this width to match your UNCLASSIFIED banner
-    minimum_height = 20,  -- Adjust this height to match your UNCLASSIFIED banner
+    minimum_width = 3840,  -- Adjust this width to match your banner
+    minimum_height = 20,  -- Adjust this height to match your banner
     use_xft = true,
     xftalpha = 0.1,
     update_interval = 1,
