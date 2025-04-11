@@ -5,12 +5,12 @@ conky.config = {
     double_buffer = true,
     own_window = true,
     own_window_class = 'Conky',
-    own_window_type = 'dock',  -- This change may make the window behave like a panel or dock
+    own_window_type = 'dock',
     own_window_hints = 'below',  -- Keeps the Conky window above others
-    own_window_colour = '#502b85',  -- Set the background color to #502b85
+    own_window_colour = '#502b85',  -- Set the background color Purple: #502b85, Green: #007A33, Red #FF0000, Orange #FF8C00...
     use_spacer = 'none',
     use_xft = true,
-    font = 'Open Sans:size=10',  -- Change the font to Arial with size 10
+    font = 'Open Sans:size=10',  -- Change the font to fit
     gap_y = 0,  -- This removes the gap at the top
 };
 
